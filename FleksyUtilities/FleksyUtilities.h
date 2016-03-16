@@ -14,6 +14,5 @@ FOUNDATION_EXPORT double FleksyUtilitiesVersionNumber;
 //! Project version string for FleksyUtilities.
 FOUNDATION_EXPORT const unsigned char FleksyUtilitiesVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <FleksyUtilities/PublicHeader.h>
-
-
+#import <FleksyUtilities/NSArray+FleksyUtilities.h>
+#import <FleksyUtilities/NSObject+FleksyUtilities.h>

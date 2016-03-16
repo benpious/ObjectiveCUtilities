@@ -10,6 +10,10 @@
 		3B6AE7441C99FC99002DEC2C /* FleksyUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6AE7431C99FC99002DEC2C /* FleksyUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B6AE74B1C99FC99002DEC2C /* FleksyUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B6AE7401C99FC99002DEC2C /* FleksyUtilities.framework */; };
 		3B6AE7501C99FC99002DEC2C /* FleksyUtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6AE74F1C99FC99002DEC2C /* FleksyUtilitiesTests.m */; };
+		3B6AE75C1C99FD7A002DEC2C /* NSObject+FleksyUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6AE75A1C99FD7A002DEC2C /* NSObject+FleksyUtilities.h */; };
+		3B6AE75D1C99FD7A002DEC2C /* NSObject+FleksyUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6AE75B1C99FD7A002DEC2C /* NSObject+FleksyUtilities.m */; };
+		3B6AE7601C99FDA6002DEC2C /* NSArray+FleksyUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6AE75E1C99FDA6002DEC2C /* NSArray+FleksyUtilities.h */; };
+		3B6AE7611C99FDA6002DEC2C /* NSArray+FleksyUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6AE75F1C99FDA6002DEC2C /* NSArray+FleksyUtilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,10 @@
 		3B6AE74A1C99FC99002DEC2C /* FleksyUtilitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FleksyUtilitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B6AE74F1C99FC99002DEC2C /* FleksyUtilitiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FleksyUtilitiesTests.m; sourceTree = "<group>"; };
 		3B6AE7511C99FC99002DEC2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B6AE75A1C99FD7A002DEC2C /* NSObject+FleksyUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FleksyUtilities.h"; sourceTree = "<group>"; };
+		3B6AE75B1C99FD7A002DEC2C /* NSObject+FleksyUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FleksyUtilities.m"; sourceTree = "<group>"; };
+		3B6AE75E1C99FDA6002DEC2C /* NSArray+FleksyUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FleksyUtilities.h"; sourceTree = "<group>"; };
+		3B6AE75F1C99FDA6002DEC2C /* NSArray+FleksyUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FleksyUtilities.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				3B6AE7431C99FC99002DEC2C /* FleksyUtilities.h */,
+				3B6AE75A1C99FD7A002DEC2C /* NSObject+FleksyUtilities.h */,
+				3B6AE75B1C99FD7A002DEC2C /* NSObject+FleksyUtilities.m */,
+				3B6AE75E1C99FDA6002DEC2C /* NSArray+FleksyUtilities.h */,
+				3B6AE75F1C99FDA6002DEC2C /* NSArray+FleksyUtilities.m */,
 				3B6AE7451C99FC99002DEC2C /* Info.plist */,
 			);
 			path = FleksyUtilities;
@@ -93,6 +105,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B6AE7601C99FDA6002DEC2C /* NSArray+FleksyUtilities.h in Headers */,
+				3B6AE75C1C99FD7A002DEC2C /* NSObject+FleksyUtilities.h in Headers */,
 				3B6AE7441C99FC99002DEC2C /* FleksyUtilities.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +207,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B6AE75D1C99FD7A002DEC2C /* NSObject+FleksyUtilities.m in Sources */,
+				3B6AE7611C99FDA6002DEC2C /* NSArray+FleksyUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +322,7 @@
 		3B6AE7551C99FC99002DEC2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -322,6 +339,7 @@
 		3B6AE7561C99FC99002DEC2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
